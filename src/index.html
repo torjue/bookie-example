@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=utf-8 />
+	<title>@@name</title>
+</head>
+<body>
+	@@include('./templates/yearHandler.html')
+	@@include('./templates/luidHandler.html')
+	@@include('./templates/someModule.html')
+	<script type="text/html">@@include('./templates/luidHandler.html')</script>
+	<div data-bookie-module="luidModule"></div>
+	<div data-bookie-module="yearHandler"></div>
+	<script type="text/javascript" src="javascript/bundle.js?rel=@@cachebust"></script>
+</body>
+</html>
+<!-- @@name - @@version - @@date @@time -->

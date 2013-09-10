@@ -1,0 +1,14 @@
+{
+  "name": "bookie",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.5.4",
+    "grunt-contrib-uglify": "~0.2.2",
+    "knockout": "~2.3.0rc",
+    "grunt-browserify2": "~0.1.8",
+    "grunt-include-replace": "~1.1.0",
+    "grunt-contrib-compass": "~0.3.0",
+    "grunt-contrib-copy": "~0.4.1"
+  }
+}
